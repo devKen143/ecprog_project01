@@ -6,7 +6,7 @@
     - left starts at the beginning of the array.
     - right starts at the end of the array.
     The pointers move toward each other while comparing values.
-    If a mismatch is found, the array is not a palindrome.
+    If  mismatch is found, the array is not a palindrome.
 */
 
 int isPalindrome(int *arr, int size) {
