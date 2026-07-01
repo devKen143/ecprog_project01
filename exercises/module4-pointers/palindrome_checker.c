@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/*
+    Function: isPalindrome
+    Uses two pointers:
+    - left starts at the beginning of the array.
+    - right starts at the end of the array.
+    The pointers move toward each other while comparing values.
+    If a mismatch is found, the array is not a palindrome.
+*/
+
 int isPalindrome(int *arr, int size) {
     int *left = arr;
     int *right = arr + size - 1;
@@ -16,6 +25,7 @@ int isPalindrome(int *arr, int size) {
 }
 
 int main() {
+  
     int arr1[] = {1, 2, 3, 2, 1};
     int arr2[] = {5, 4, 4, 5};
     int arr3[] = {1, 2, 3, 4, 5};
